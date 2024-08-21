@@ -198,8 +198,8 @@ background-color: rgba(102, 102, 102, 0);
 font-weight: 600;
 } 
 #main-nav.navbar-default {
-background-color: rgba(102, 102, 102, 0.5);
-box-shadow: 0px 1px 2px rgba(145, 145, 145, 0.5);
+background-color: rgba(102, 102, 102, 0);
+
 }
 .navbar-nav>li {
 }
@@ -413,7 +413,7 @@ overflow: hidden;
 }
 #portfolio {
   padding: 100px 0;
-  background: #FFFFFF;
+  background: #f8fff2;
   background-size: cover;
 }
 #portfolio .portfolio-filter {
@@ -433,12 +433,14 @@ overflow: hidden;
   color: #4C4C4C;
   position: relative;
   border-bottom: 2px solid transparent;
-  background: rgba(145, 145, 145, 0.29);
+  background: #7ec545;
+  font-weight: 700;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #133986;
-  color: #FFFFFF; 
+  background: #f5be33;
+  color: #1f1f1f; 
+  font-weight: 700;
 } 
 #portfolio .portfolio-items {
   margin: -15px;
@@ -563,13 +565,15 @@ margin-bottom: 15px;
 #testimonial {
   background: #222222;
   background-size: cover;
-  padding: 100px 0;
+  padding: 200px 0;
   color: #fff;
-  background: url('../images/img2.jpg');
+  background: url('../images/winter-ascent-to-the-mountain.JPG');
   background-size: cover;
 }
 #testimonial h2{
 color:#fff;
+position: relative; /* або absolute, якщо потрібно */
+top: -80px; /* Піднімає заголовок на 20px вгору */
 }
 #testimonial h4 {
   color: #fff;
@@ -591,8 +595,9 @@ margin: 0 8px;
 #about {
   
   background: #f8fff2;
-  /* background: url('../images/img2.jpg'); */    
-  background-size: cover;  };
+  background-size: cover;  
+  padding-bottom: 100px;
+};
 
 #about .column-title{
 color:#666666;
@@ -623,7 +628,7 @@ color:#666666;
   background: hsl(92, 100%, 97%);
   color: #666666;
   padding: 7px 0;
-  border-top: 2px solid #fff;
+  border-top: 2px solid hsl(92, 100%, 97%);
 } 
 #our-team .team-member:hover .social-icons > li > a {
   color: #7ec545;
@@ -689,7 +694,7 @@ line-height: 22px;
 }
 .single-testimonial img{
 	border-radius: 50%;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 .single-testimonial h5{
 	padding: 8px 0 0px;
@@ -751,18 +756,19 @@ margin: 0;
   border-top-color: #eee;
 }
 #business-stats {
-  padding: 100px 0 70px;
-  background: #FFFFFF;
+  padding: 20px 0 70px;
+  background: #f8fff2;
   background-size: cover;
   color: #000;
   /* background: url('../images/img2.jpg'); */
   background-size: contain;
+  padding-bottom: 100px;
 }
 #business-stats h1,
 #business-stats h2,
 #business-stats h3,
 #business-stats h4 {
-  color: #151313;
+  color: #7ec545;
 }
 #business-stats strong {
   display: block;
@@ -775,7 +781,7 @@ margin: 0;
   height: 140px;
   font-size: 24px;
   line-height: 140px;
-  border: 4px solid #133986;
+  border: 4px solid #7ec545;
   border-radius: 100px;
   margin-bottom: 20px;
   color: #000;
@@ -851,19 +857,18 @@ color: #234259;
   color: #234259;
 }
 #contact-us {
-  padding: 100px 0 10px;
-  background: #000 url('../images/map-image.png') top left no-repeat;
+  padding: 20px 0 10px;
+  background: #f8fff2;
 }
 #contact-us h1,
 #contact-us h2 {
-    color: #fff;
+    color: #7ec545;
 }
 /*Contact*/
  .contact-info{
- background: #133986;
  padding: 50px;
  margin-bottom: 50px;
- color: #fff;
+ color: #7ec545;
 }
 .contact-info address {
 margin-bottom: 20px;
@@ -892,7 +897,7 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #0B0B0B;
-  background: #FFFFFF;
+  background: #f8fff2;
 }
 #footer a {
   color: #000;
